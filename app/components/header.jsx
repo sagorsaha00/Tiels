@@ -13,11 +13,11 @@ export default function Header() {
   const { data: session } = useSession();
 
   console.log("session", session?.user);
-  const handleLoginfunc = () => {
+  const handleLoginfunc = async () => {
     if (session?.user) {
-      authClient.signOut();
+      await authClient.signOut();
       router.push("/login");
-      console.log("log Out");
+      router.refresh();
     } else {
       router.push("/login");
     }
@@ -32,7 +32,10 @@ export default function Header() {
       style={headerAnim}
       className="flex  bg-[#FFFAF6] items-center justify-between px-6 py-6 md:px-12"
     >
-      <div  onClick={() => router.push('/')} className="text-2xl cursor-pointer font-bold tracking-[-1px]">
+      <div
+        onClick={() => router.push("/")}
+        className="text-2xl cursor-pointer font-bold tracking-[-1px]"
+      >
         TILES
       </div>
 
