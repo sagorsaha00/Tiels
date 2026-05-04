@@ -81,7 +81,7 @@ export default function RegisterPage() {
             className="w-full rounded-full border px-5 py-3 outline-none focus:border-black"
           />
 
-          <button className="w-full rounded-full bg-[#131313] py-3 text-white hover:bg-[#333] transition">
+          <button className="w-full cursor-pointer rounded-full bg-[#131313] py-3 text-white hover:bg-[#333] transition">
             Register
           </button>
         </form>

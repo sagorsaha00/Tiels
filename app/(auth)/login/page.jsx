@@ -70,7 +70,7 @@ export default function LoginPage() {
             className="w-full rounded-full border px-5 py-3 outline-none focus:border-black"
           />
 
-          <button className="w-full rounded-full bg-[#131313] py-3 text-white hover:bg-[#333] transition">
+          <button className="w-full cursor-pointer rounded-full bg-[#131313] py-3 text-white hover:bg-[#333] transition">
             Login
           </button>
         </form>
@@ -95,7 +95,7 @@ export default function LoginPage() {
           Continue with Google
         </button>
 
-        <p className="mt-6 text-center text-sm text-gray-500">
+        <p className="mt-6 text-center text-sm cursor-pointer text-gray-500">
           Don’t have an account?{" "}
           <Link href="/register" className="text-black font-medium">
             Register
