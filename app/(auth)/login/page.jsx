@@ -83,7 +83,7 @@ export default function LoginPage() {
 
         <button
           onClick={() => signInGoogle()}
-          className="flex w-full items-center justify-center gap-3 rounded-full border py-3 text-sm font-medium hover:bg-gray-100 transition"
+          className="flex cursor-pointer w-full items-center justify-center gap-3 rounded-full border py-3 text-sm font-medium hover:bg-gray-100 transition"
         >
           <Image
             height={300}
