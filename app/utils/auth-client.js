@@ -3,4 +3,4 @@ export const authClient = createAuthClient({
     baseURL: "https://tiels-git-main-sagorsaha00s-projects.vercel.app"
 })
 
-export const { signIn, signUp, useSession, getSession } = createAuthClient()
+export const { signIn, signUp, signOut, useSession, getSession } = createAuthClient()
