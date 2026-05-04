@@ -31,7 +31,7 @@ export default function Home() {
 
         <section className="grid   items-center gap-12 px-6 py-12 md:grid-cols-2 md:px-12 md:py-20">
           <animated.div style={titleAnim}>
-            <p className="mb-5 text-lg">Inspired Tiling Solutions</p>
+            
 
             <h1 className="max-w-3xl text-[56px] font-semibold leading-[0.9] tracking-[-3px] md:text-[96px] lg:text-[120px]">
               Your home, your reflection.
