@@ -12,7 +12,7 @@ export default function Header() {
   const router = useRouter();
   const { data: session } = useSession();
 
-  console.log("session", session?.user);
+ 
   const handleLoginfunc = async () => {
     if (session?.user) {
       await authClient.signOut();
